@@ -1,0 +1,26 @@
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6092c19b4f86fb701c5178e2
+
+###
+POST  http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "abc",
+    "subscribedToChannel": "PewPew"
+}
+
+###
+PATCH  http://localhost:3000/subscribers/60937d770be22a39f6e044dd
+Content-Type: application/json
+
+{
+    "name": "mike",
+    "subscribedToChannel": "son tung MTP"
+    
+}
+
+###
+DELETE  http://localhost:3000/subscribers/60936fbb8eccd92fb3cdfa62
